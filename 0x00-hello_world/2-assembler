@@ -1,6 +1,10 @@
 #!/bin/bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 gcc -S $CFILE
 =======
 gcc -s $CFILE
 >>>>>>> 6be976b (2. Assembler)
+=======
+gcc -S $CFILE
+>>>>>>> 3e34a6f (2. Assembler)
