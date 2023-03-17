@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 /**
+<<<<<<< HEAD
  * main - prints the numbers in base 16
  * Return: Always 0
 */
@@ -24,5 +25,25 @@ int main(void)
 
 	putchar('\n');
 
+=======
+ * main - prints all the numbers of base 16 in lowercase,
+ * followed by a new line
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+	int n;
+	char ch;
+
+	for (n = 48; n < 58; n++)
+	{
+		putchar(n);
+	}
+	for (ch = 'a'; ch <= 'f'; ch++)
+	{
+		putchar(ch);
+	}
+	putchar('\n');
+>>>>>>> 7063002 (8. Hexadecimal)
 	return (0);
 }
