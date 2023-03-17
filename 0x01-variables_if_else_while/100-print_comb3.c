@@ -1,4 +1,5 @@
 #include <stdio.h>
+<<<<<<< HEAD
 /**
  * main - program entry point
  *
@@ -19,6 +20,26 @@ int main(void)
 				putchar((i % 10) + '0');
 				putchar((j % 10) + '0');
 				if (i != 18 || j != 19)
+=======
+
+/**
+ * main - prints all possible different combinations of two digits
+ * Return: ALways 0 (Success)
+ */
+int main(void)
+{
+	int n, m;
+
+	for (n = 48; n <= 56; n++)
+	{
+		for (m = 49; m <= 57; m++)
+		{
+			if (m > n)
+			{
+				putchar(n);
+				putchar(m);
+				if (n != 56 || m != 57)
+>>>>>>> f0f4bfd (10. Inventing is a combination of brains and materials. The more brains you use, the less material you need)
 				{
 					putchar(',');
 					putchar(' ');
