@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 /**
+<<<<<<< HEAD
  * main - prints single digits in base 10
  * Return: Always 0
  */
@@ -13,5 +14,20 @@ int main(void)
 
 	putchar('\n');
 
+=======
+ * main - prints all single digit numbers of base 10 starting from 0,
+ * followed by a new line, using putchar
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+	int n;
+
+	for (n = 48; n < 58; n++)
+	{
+		putchar(n);
+	}
+	putchar('\n');
+>>>>>>> e8152d9 (6. Numberz)
 	return (0);
 }
