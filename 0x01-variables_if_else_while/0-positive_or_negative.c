@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -5,6 +6,14 @@
 /**
  * main - prints if the number is positive, negative or 0
  * Return: Always 0
+=======
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+/**
+ *main - prints if the number is positive,negative or 0
+ *Return:Always 0
+>>>>>>> 4404490 (0. Positive anything is better than negative nothing)
  */
 int main(void)
 {
@@ -12,7 +21,10 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4404490 (0. Positive anything is better than negative nothing)
 	if (n > 0)
 	{
 		printf("%d is positive\n", n);
