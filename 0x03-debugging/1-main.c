@@ -8,6 +8,7 @@
 int main(void)
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	int i;
 
 	printf("Infinite loop incoming :(\n");
@@ -24,18 +25,25 @@ int main(void)
 	return (0);
 =======
  int i;
+=======
+int i;
+>>>>>>> 46d4198 (1. Like, comment, subscribe)
 
- printf("Infinite loop incoming :(\n");
+printf("Infinite loop incoming :(\n");
 
- i = 0;
+i = 0;
 
- /*while (i < 10)*/
- /*{*/
- /* putchar(i);*/
- /*}*/
+/*while (i < 10)*/
+/*{*/
+/* putchar(i);*/
+/*}*/
 
- printf("Infinite loop avoided! \\o/\n");
+printf("Infinite loop avoided! \\o/\n");
 
+<<<<<<< HEAD
  return (0);
 >>>>>>> bb63ac7 (1. Like, comment, subscribe)
+=======
+return (0);
+>>>>>>> 46d4198 (1. Like, comment, subscribe)
 }
