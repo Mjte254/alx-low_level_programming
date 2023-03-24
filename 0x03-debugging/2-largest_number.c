@@ -27,16 +27,20 @@ int largest_number(int a, int b, int c)
 =======
 	if (a > b && b > c)
 	{
-	largest = a;
+		largest = a;
 	}
 	else if (b > a && a > c)
 	{
-	largest = b;
+		largest = b;
 	}
 	else
 	{
+<<<<<<< HEAD
 	largest = c;
 >>>>>>> 015d292 (2. 0 > 972?)
+=======
+		largest = c;
+>>>>>>> f665927 (2. 0 > 972?)
 	}
 
 	return (largest);
