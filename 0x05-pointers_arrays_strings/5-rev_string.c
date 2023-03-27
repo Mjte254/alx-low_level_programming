@@ -1,13 +1,20 @@
 #include "main.h"
 
 /**
+<<<<<<< HEAD
  * rev_string - reverses a string
  * @s: input
  * Return: string in reverse
+=======
+ * rev_string - Reverses a string
+ * @s: Input string
+ * Return: String in reverse
+>>>>>>> 872e90d (5. A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes)
  */
 
 void rev_string(char *s)
 {
+<<<<<<< HEAD
 	int a = 0, b, c;
 	char d;
 
@@ -21,5 +28,19 @@ void rev_string(char *s)
 		d = s[b];
 		s[b] = s[c];
 		s[c] = d;
+=======
+	char rev = s[0];
+	int counter = 0;
+	int i;
+
+	while (s[counter] != '\0')
+	counter++;
+	for (i = 0; i < counter; i++)
+	{
+		counter--;
+		rev = s[i];
+		s[i] = s[counter];
+		s[counter] = rev;
+>>>>>>> 872e90d (5. A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes)
 	}
 }
