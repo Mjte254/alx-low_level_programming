@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+<<<<<<< HEAD
 /**
  * write your line of code here...
  * Remeber:
@@ -11,6 +12,8 @@
 p[5] 98;
 /* ...so that this prints 98\n*/
 
+=======
+>>>>>>> 2c0d677 (10. A dream doesn't become reality through magic; it takes sweat, determination and hard work)
 int main(void)
 {
 	int n;
@@ -19,7 +22,21 @@ int main(void)
 
 	a[2] = 1024;
 	p = &n;
+<<<<<<< HEAD
 	printf("a[2] = %d\n", a[2]);
 
+=======
+/*
+  * write your line of code here...
+  * Remember:
+  * - you are not allowed to use a
+  * - you are not allowed to modify p
+  * - only one statement
+  * - you are not allowed to code anything else than this line of code
+  */
+	*(p + 5) = 98;
+ /* ...so that this prints 98\n */
+	printf("a[2] = %d\n", a[2]);
+>>>>>>> 2c0d677 (10. A dream doesn't become reality through magic; it takes sweat, determination and hard work)
 	return (0);
 }
