@@ -1,4 +1,5 @@
 #include "main.h"
+<<<<<<< HEAD
 
 /**
  * reverse_array - reverse array
@@ -16,5 +17,24 @@ void reverse_array(int *a, int n)
 		c = a[i];
 		a[i] = a[n - 1 - i];
 		a[n - 1 - i] = c;
+=======
+/**
+ * reverse_array - reverse array of integers
+ * @a: array
+ * @n: number of elements of array
+ *
+ * Return: void
+ */
+void reverse_array(int *a, int n)
+{
+	int i;
+	int t;
+
+	for (i = 0; i < n--; i++)
+	{
+		t = a[i];
+		a[i] = a[n];
+		a[n] = t;
+>>>>>>> 71b6f50 (4. I am a kind of paranoid in reverse. I suspect people of plotting to make me happy)
 	}
 }
