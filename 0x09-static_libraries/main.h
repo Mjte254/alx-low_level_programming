@@ -1,6 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 /*
  * file main.h
@@ -14,6 +15,10 @@ int _putchar(char c);
 		
 int _putchar(char c);		
 >>>>>>> 83613bc (0. A library is not a luxury but one of the necessities of life)
+=======
+
+int _putchar(char c);
+>>>>>>> f9b48b8 (0. A library is not a luxury but one of the necessities of life)
 int _islower(int c);
 int _isalpha(int c);
 int _abs(int n);
