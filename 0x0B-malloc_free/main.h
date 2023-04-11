@@ -16,11 +16,15 @@ int **alloc_grid(int width, int height);
 void free_grid(int **grid, int height);
 char *argstostr(int ac, char **av);
 <<<<<<< HEAD
+<<<<<<< HEAD
 char **strtow(char *str);
 
 
 #endif /* MAIN_H */
 =======
+=======
+char **strtow(char *str);
+>>>>>>> 61a7072 (6. I will show you how great I am)
 
 #endif
 >>>>>>> 977a9c4 (0. Float like a butterfly, sting like a bee)
