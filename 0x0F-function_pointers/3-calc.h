@@ -1,5 +1,6 @@
 #ifndef CALC_H
 #define CALC_H
+<<<<<<< HEAD
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -11,6 +12,13 @@
  * @f: The function associated
  */
 
+=======
+/**
+ * struct op - A struct op.
+ * @op: The operator.
+ * @f: The associated function.
+ */
+>>>>>>> 5b9c6cf (3. A goal is not always meant to be reached, it often serves simply as something to aim at)
 typedef struct op
 {
 	char *op;
@@ -24,5 +32,9 @@ int op_div(int a, int b);
 int op_mod(int a, int b);
 int (*get_op_func(char *s))(int, int);
 
+<<<<<<< HEAD
 
 #endif /* CALC_H */
+=======
+#endif
+>>>>>>> 5b9c6cf (3. A goal is not always meant to be reached, it often serves simply as something to aim at)
