@@ -1,9 +1,17 @@
+<<<<<<< HEAD
 #ifndef _LISTS_
 #define _LISTS_
 
 #include <stdio.h>
 #include <stdlib.h>
 #include "lists.h"
+=======
+#ifndef LISTS_H
+#define LISTS_H
+
+#include <stdio.h>
+#include <stdlib.h>
+>>>>>>> bbf389b (0. Print list)
 
 /**
  * struct listint_s - singly linked list
@@ -11,6 +19,10 @@
  * @next: points to the next node
  *
  * Description: singly linked list node structure
+<<<<<<< HEAD
+=======
+ * for alx project
+>>>>>>> bbf389b (0. Print list)
  */
 typedef struct listint_s
 {
@@ -18,6 +30,7 @@ typedef struct listint_s
 	struct listint_s *next;
 } listint_t;
 
+<<<<<<< HEAD
 /**
  * struct listp_s - singly linked list
  * @p: pointers of nodes
@@ -31,6 +44,8 @@ typedef struct listp_s
 	struct listp_s *next;
 } listp_t;
 
+=======
+>>>>>>> bbf389b (0. Print list)
 size_t print_listint(const listint_t *h);
 size_t listint_len(const listint_t *h);
 listint_t *add_nodeint(listint_t **head, const int n);
