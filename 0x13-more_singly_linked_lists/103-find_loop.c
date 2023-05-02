@@ -29,5 +29,9 @@ listint_t *find_listint_loop(listint_t *head)
 			return (fast);
 		}
 	}
+<<<<<<< HEAD
+=======
+
+>>>>>>> c09b13a (14. Find the loop)
 	return (NULL);
 }
