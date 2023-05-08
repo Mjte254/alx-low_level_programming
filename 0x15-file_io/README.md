@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 In General Terms
 
 Looking for the right source of information online
@@ -17,3 +18,6 @@ What are file permissions, and how to set them when creating a file with the ope
 What is a system call
 
 What is the difference between a function and a system call
+=======
+0x15. C - File I/O
+>>>>>>> 1e1a3fd (Tread lightly, she is near)
