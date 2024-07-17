@@ -8,7 +8,11 @@
  * @size: size of the array
  * @value: value to search in
  * Return: Always EXIT_SUCCESS
+<<<<<<< HEAD
  */
+=======
+  */
+>>>>>>> 8263386 (0-linear.c)
 int linear_search(int *array, size_t size, int value)
 {
 	int i;

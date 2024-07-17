@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SEARCH ALGORITHMS
 ![](https://media.tenor.com/Qz2VqMX0MisAAAAM/just-blame-on-the-algorithm.gif)
 
@@ -16,4 +17,7 @@ Read or watch:
 #
 ![](https://blog.penjee.com/wp-content/uploads/2015/12/optimal-binary-search-tree-from-sorted-array.gif)
 #
+=======
+0x1E. C - Search Algorithms
+>>>>>>> 8263386 (0-linear.c)
 
