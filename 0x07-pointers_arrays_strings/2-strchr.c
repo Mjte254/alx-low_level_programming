@@ -1,3 +1,31 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+#include "main.c"
+
+/**
+ * _strchr - locates a character in a string
+ * @c: occurrence of the character
+ * @s: in the string
+ * Return: a pointer to the first occurrence of the character
+ */
+
+char *_strchr(char *s, char c)
+{
+	while (*s)
+	{
+		if (*s != c)
+			s++;
+		else
+			return (s);
+	}
+	if (c == '\0')
+		return (s);
+
+	return (NULL);
+
+=======
+>>>>>>> master
 #include "main.h"
 /**
  * _strchr - Entry point
@@ -15,4 +43,8 @@ char *_strchr(char *s, char c)
 			return (&s[i]);
 	}
 	return (0);
+<<<<<<< HEAD
+=======
+>>>>>>> 702a32f (2. strchr)
+>>>>>>> master
 }

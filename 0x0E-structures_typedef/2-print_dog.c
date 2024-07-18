@@ -1,5 +1,15 @@
+<<<<<<< HEAD
 #include <stdio.h>
 #include <stdlib.h>
+=======
+<<<<<<< HEAD
+#include <stdlib.h>
+#include <stdio.h>
+=======
+#include <stdio.h>
+#include <stdlib.h>
+>>>>>>> 4aa19f4 (2. A dog will teach you unconditional love. If you can have that in your life, things won't be too bad)
+>>>>>>> master
 #include "dog.h"
 
 /**

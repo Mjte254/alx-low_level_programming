@@ -2,6 +2,18 @@
 #include "main.h"
 
 /**
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+ * print_remaining_days - takes a date and prints how many days are
+ * left in the year, taking leap years into account
+ * @month: month in number format
+ * @day: day of month
+ * @year: year
+ * Return: void
+ */
+=======
+>>>>>>> master
 * print_remaining_days - takes a date and prints how many days are
 * left in the year, taking leap years into account
 * @month: month in number format
@@ -9,6 +21,10 @@
 * @year: year
 * Return: void
 */
+<<<<<<< HEAD
+=======
+>>>>>>> f86d6da (3. Leap year)
+>>>>>>> master
 
 void print_remaining_days(int month, int day, int year)
 {
@@ -24,10 +40,23 @@ void print_remaining_days(int month, int day, int year)
 	}
 	else
 	{
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+		if (month == 2 && day == 60)
+		{
+			printf("Invalid date: %02d/%02d/%04d\n", month, day - 31, year);
+		}
+=======
+>>>>>>> master
 	if (month == 2 && day == 60)
 	{
 		printf("Invalid date: %02d/%02d/%04d\n", month, day - 31, year);
 	}
+<<<<<<< HEAD
+=======
+>>>>>>> f86d6da (3. Leap year)
+>>>>>>> master
 		else
 		{
 			printf("Day of the year: %d\n", day);

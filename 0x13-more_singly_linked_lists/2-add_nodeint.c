@@ -12,12 +12,28 @@ listint_t *add_nodeint(listint_t **head, const int n)
 	listint_t *new;
 
 	new = malloc(sizeof(listint_t));
+<<<<<<< HEAD
 	if (!new)
+=======
+<<<<<<< HEAD
+	if (new == NULL)
+=======
+	if (!new)
+>>>>>>> 30e8179 (2. Add node)
+>>>>>>> master
 		return (NULL);
 
 	new->n = n;
 	new->next = *head;
 	*head = new;
 
+<<<<<<< HEAD
 	return (new);
+=======
+<<<<<<< HEAD
+	return (*head);
+=======
+	return (new);
+>>>>>>> 30e8179 (2. Add node)
+>>>>>>> master
 }

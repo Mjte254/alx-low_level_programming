@@ -5,9 +5,21 @@
  * main - prints its own opcodes
  * @argc: number of arguments
  * @argv: array of arguments
+<<<<<<< HEAD
  *
  * Return: Always 0 (Success)
  */
+=======
+<<<<<<< HEAD
+ * Return: Always 0 (Success)
+ */
+
+=======
+ *
+ * Return: Always 0 (Success)
+ */
+>>>>>>> bcfc9a2 (4. Most hackers are young because young people tend to be adaptable. As long as you remain adaptable, you can always be a good hacker)
+>>>>>>> master
 int main(int argc, char *argv[])
 {
 	int bytes, i;

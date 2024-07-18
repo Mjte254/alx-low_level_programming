@@ -1,4 +1,24 @@
 #include "main.h"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+/**
+ * print_last_digit - Prints the last digit of a number.
+ * @n: The number in question.
+ * Return: Value of the last digit.
+ */
+
+int print_last_digit(int n)
+{
+	int ld = n % 10;
+
+	if (ld < 0)
+		ld *= -1;
+	_putchar(ld + '0');
+	return (ld);
+=======
+>>>>>>> master
 /**
  * print_last_digit - prints the last digit of a number
  * @n: the int to extract the last digit from
@@ -19,4 +39,8 @@ int print_last_digit(int n)
 	_putchar(a + '0');
 
 	return (a);
+<<<<<<< HEAD
+=======
+>>>>>>> 1df404c (7. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important)
+>>>>>>> master
 }

@@ -1,4 +1,27 @@
 #include "variadic_functions.h"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+/**
+ * print_numbers - prints num
+ * @separator: pointer param
+ * @n: param
+ */
+
+void print_numbers(const char *separator, const unsigned int n, ...)
+{
+	va_list valist;
+	unsigned int i;
+
+	va_start(valist, n);
+
+	for (i = 0; i < n; i++)
+	{
+		printf("%d", va_arg(valist, int));
+		if (separator && i < n - 1)
+=======
+>>>>>>> master
 #include <stdio.h>
 #include <stdarg.h>
 
@@ -20,10 +43,23 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		printf("%d", va_arg(nums, int));
 
 		if (index != (n - 1) && separator != NULL)
+<<<<<<< HEAD
+=======
+>>>>>>> 822b350 (1. To be is to be the value of a variable)
+>>>>>>> master
 			printf("%s", separator);
 	}
 
 	printf("\n");
+<<<<<<< HEAD
 
 	va_end(nums);
+=======
+<<<<<<< HEAD
+	va_end(valist);
+=======
+
+	va_end(nums);
+>>>>>>> 822b350 (1. To be is to be the value of a variable)
+>>>>>>> master
 }

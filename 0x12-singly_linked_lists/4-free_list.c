@@ -1,3 +1,26 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+#include "lists.h"
+#include <stdlib.h>
+
+/**
+ * free_list - Frees a list_t list
+ * @head: A pointer to the list_t list
+ */
+
+void free_list(list_t *head)
+{
+	list_t *tmp;
+
+	while (head)
+	{
+		tmp = head->next;
+		free(head->str);
+		free(head);
+		head = tmp;
+=======
+>>>>>>> master
 #include <stdlib.h>
 #include "lists.h"
 
@@ -15,5 +38,9 @@ void free_list(list_t *head)
 		free(head->str);
 		free(head);
 		head = temp;
+<<<<<<< HEAD
+=======
+>>>>>>> f3b14d2 (4. Free list)
+>>>>>>> master
 	}
 }

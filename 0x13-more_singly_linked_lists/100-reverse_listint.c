@@ -8,6 +8,26 @@
  */
 listint_t *reverse_listint(listint_t **head)
 {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+	listint_t *p;
+	listint_t *n;
+
+	p = NULL;
+	n = NULL;
+
+	while (*head != NULL)
+	{
+		n = (*head)->next;
+		(*head)->next = p;
+		p = *head;
+		*head = n;
+	}
+
+	*head = p;
+=======
+>>>>>>> master
 	listint_t *prev = NULL;
 	listint_t *next = NULL;
 
@@ -21,5 +41,9 @@ listint_t *reverse_listint(listint_t **head)
 
 	*head = prev;
 
+<<<<<<< HEAD
+=======
+>>>>>>> 704b7f5 (11. Reverse list)
+>>>>>>> master
 	return (*head);
 }

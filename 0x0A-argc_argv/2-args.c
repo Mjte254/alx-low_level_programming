@@ -1,3 +1,18 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+#include "main.h"
+#include <stdio.h>
+
+/**
+ * main - print all arguments it receives
+ * @argc: argument count
+ * @argv: argument vector, array of strings
+ * Return: 0
+ */
+
+=======
+>>>>>>> master
 #include <stdio.h>
 #include "main.h"
 
@@ -8,6 +23,10 @@
  *
  * Return: Always 0 (Success)
  */
+<<<<<<< HEAD
+=======
+>>>>>>> dac7699 (updated)
+>>>>>>> master
 int main(int argc, char *argv[])
 {
 	int i;

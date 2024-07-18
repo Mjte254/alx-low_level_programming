@@ -13,7 +13,15 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 	listint_t *temp = *head;
 
 	new = malloc(sizeof(listint_t));
+<<<<<<< HEAD
 	if (!new)
+=======
+<<<<<<< HEAD
+	if (new == NULL)
+=======
+	if (!new)
+>>>>>>> e1af7f5 (3. Add node at the end)
+>>>>>>> master
 		return (NULL);
 
 	new->n = n;

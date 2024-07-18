@@ -1,4 +1,29 @@
 #include "main.h"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+#include <stdio.h>
+
+/**
+ * *_memset - fills memory with a constant byte,
+ * @s: address to memory area.
+ * @b: char to be used.
+ * @dest: number of bytes to the memory block.
+ * Return: the pointer to dest
+ */
+
+char *_memset(char *s, char b, unsigned int n)
+{
+	unsigned int i;
+
+	for (i = 0; n > 0; i++;  n--)
+	{
+		s[i] = b;
+
+	}
+
+=======
+>>>>>>> master
 /**
  * _memset - fill a block of memory with a specific value
  * @s: starting address of memory to be filled
@@ -16,5 +41,9 @@ char *_memset(char *s, char b, unsigned int n)
 		s[i] = b;
 		n--;
 	}
+<<<<<<< HEAD
+=======
+>>>>>>> 6d3a8c2 (0. memset)
+>>>>>>> master
 	return (s);
 }
